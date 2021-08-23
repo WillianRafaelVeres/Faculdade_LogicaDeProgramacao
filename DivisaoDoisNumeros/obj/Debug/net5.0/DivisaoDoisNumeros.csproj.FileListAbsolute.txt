@@ -1,0 +1,16 @@
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\obj\Debug\net5.0\DivisaoDoisNumeros.csprojAssemblyReference.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\obj\Debug\net5.0\DivisaoDoisNumeros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\obj\Debug\net5.0\DivisaoDoisNumeros.AssemblyInfoInputs.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\obj\Debug\net5.0\DivisaoDoisNumeros.AssemblyInfo.cs
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\obj\Debug\net5.0\DivisaoDoisNumeros.csproj.CoreCompileInputs.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\bin\Debug\net5.0\DivisaoDoisNumeros.exe
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\bin\Debug\net5.0\DivisaoDoisNumeros.deps.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\bin\Debug\net5.0\DivisaoDoisNumeros.runtimeconfig.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\bin\Debug\net5.0\DivisaoDoisNumeros.runtimeconfig.dev.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\bin\Debug\net5.0\DivisaoDoisNumeros.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\bin\Debug\net5.0\ref\DivisaoDoisNumeros.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\bin\Debug\net5.0\DivisaoDoisNumeros.pdb
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\obj\Debug\net5.0\DivisaoDoisNumeros.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\obj\Debug\net5.0\ref\DivisaoDoisNumeros.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\obj\Debug\net5.0\DivisaoDoisNumeros.pdb
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\DivisaoDoisNumeros\obj\Debug\net5.0\DivisaoDoisNumeros.genruntimeconfig.cache

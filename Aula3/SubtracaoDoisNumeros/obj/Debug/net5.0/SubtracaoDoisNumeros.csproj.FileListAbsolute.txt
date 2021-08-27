@@ -1,0 +1,16 @@
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\bin\Debug\net5.0\SubtracaoDoisNumeros.exe
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\bin\Debug\net5.0\SubtracaoDoisNumeros.deps.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\bin\Debug\net5.0\SubtracaoDoisNumeros.runtimeconfig.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\bin\Debug\net5.0\SubtracaoDoisNumeros.runtimeconfig.dev.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\bin\Debug\net5.0\SubtracaoDoisNumeros.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\bin\Debug\net5.0\ref\SubtracaoDoisNumeros.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\bin\Debug\net5.0\SubtracaoDoisNumeros.pdb
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\obj\Debug\net5.0\SubtracaoDoisNumeros.csprojAssemblyReference.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\obj\Debug\net5.0\SubtracaoDoisNumeros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\obj\Debug\net5.0\SubtracaoDoisNumeros.AssemblyInfoInputs.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\obj\Debug\net5.0\SubtracaoDoisNumeros.AssemblyInfo.cs
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\obj\Debug\net5.0\SubtracaoDoisNumeros.csproj.CoreCompileInputs.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\obj\Debug\net5.0\SubtracaoDoisNumeros.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\obj\Debug\net5.0\ref\SubtracaoDoisNumeros.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\obj\Debug\net5.0\SubtracaoDoisNumeros.pdb
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SubtracaoDoisNumeros\obj\Debug\net5.0\SubtracaoDoisNumeros.genruntimeconfig.cache

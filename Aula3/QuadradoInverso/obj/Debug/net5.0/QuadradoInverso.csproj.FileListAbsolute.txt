@@ -1,0 +1,16 @@
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\obj\Debug\net5.0\QuadradoInverso.csprojAssemblyReference.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\obj\Debug\net5.0\QuadradoInverso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\obj\Debug\net5.0\QuadradoInverso.AssemblyInfoInputs.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\obj\Debug\net5.0\QuadradoInverso.AssemblyInfo.cs
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\obj\Debug\net5.0\QuadradoInverso.csproj.CoreCompileInputs.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\bin\Debug\net5.0\QuadradoInverso.exe
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\bin\Debug\net5.0\QuadradoInverso.deps.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\bin\Debug\net5.0\QuadradoInverso.runtimeconfig.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\bin\Debug\net5.0\QuadradoInverso.runtimeconfig.dev.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\bin\Debug\net5.0\QuadradoInverso.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\bin\Debug\net5.0\ref\QuadradoInverso.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\bin\Debug\net5.0\QuadradoInverso.pdb
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\obj\Debug\net5.0\QuadradoInverso.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\obj\Debug\net5.0\ref\QuadradoInverso.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\obj\Debug\net5.0\QuadradoInverso.pdb
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\QuadradoInverso\obj\Debug\net5.0\QuadradoInverso.genruntimeconfig.cache

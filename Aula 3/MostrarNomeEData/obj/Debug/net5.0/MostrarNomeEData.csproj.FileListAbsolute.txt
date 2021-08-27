@@ -1,0 +1,16 @@
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\bin\Debug\net5.0\MostrarNomeEData.exe
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\bin\Debug\net5.0\MostrarNomeEData.deps.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\bin\Debug\net5.0\MostrarNomeEData.runtimeconfig.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\bin\Debug\net5.0\MostrarNomeEData.runtimeconfig.dev.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\bin\Debug\net5.0\MostrarNomeEData.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\bin\Debug\net5.0\ref\MostrarNomeEData.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\bin\Debug\net5.0\MostrarNomeEData.pdb
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\obj\Debug\net5.0\MostrarNomeEData.csprojAssemblyReference.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\obj\Debug\net5.0\MostrarNomeEData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\obj\Debug\net5.0\MostrarNomeEData.AssemblyInfoInputs.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\obj\Debug\net5.0\MostrarNomeEData.AssemblyInfo.cs
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\obj\Debug\net5.0\MostrarNomeEData.csproj.CoreCompileInputs.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\obj\Debug\net5.0\MostrarNomeEData.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\obj\Debug\net5.0\ref\MostrarNomeEData.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\obj\Debug\net5.0\MostrarNomeEData.pdb
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\MostrarNomeEData\obj\Debug\net5.0\MostrarNomeEData.genruntimeconfig.cache

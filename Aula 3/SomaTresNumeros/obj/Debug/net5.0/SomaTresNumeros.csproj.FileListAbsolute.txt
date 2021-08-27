@@ -1,0 +1,16 @@
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\bin\Debug\net5.0\SomaTresNumeros.exe
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\bin\Debug\net5.0\SomaTresNumeros.deps.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\bin\Debug\net5.0\SomaTresNumeros.runtimeconfig.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\bin\Debug\net5.0\SomaTresNumeros.runtimeconfig.dev.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\bin\Debug\net5.0\SomaTresNumeros.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\bin\Debug\net5.0\ref\SomaTresNumeros.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\bin\Debug\net5.0\SomaTresNumeros.pdb
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\obj\Debug\net5.0\SomaTresNumeros.csprojAssemblyReference.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\obj\Debug\net5.0\SomaTresNumeros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\obj\Debug\net5.0\SomaTresNumeros.AssemblyInfoInputs.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\obj\Debug\net5.0\SomaTresNumeros.AssemblyInfo.cs
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\obj\Debug\net5.0\SomaTresNumeros.csproj.CoreCompileInputs.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\obj\Debug\net5.0\SomaTresNumeros.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\obj\Debug\net5.0\ref\SomaTresNumeros.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\obj\Debug\net5.0\SomaTresNumeros.pdb
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\LogicaDeProgramacao\SomaTresNumeros\obj\Debug\net5.0\SomaTresNumeros.genruntimeconfig.cache

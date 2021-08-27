@@ -7,16 +7,16 @@ namespace QuadradoInverso
     {
         static void Main(string[] args)
         {
-            int numero = 0;
-            int resultado = 0;
-            int inverso = 0;
-            int quadrado = 0;
+            double numero = 0;
+            double resultado = 0;
+            double inverso = 0;
+            double quadrado = 0;
 
             Console.Clear();
 
             Console.WriteLine("Quadrado do inverso");
             Console.WriteLine("Digite um número:");
-            numero = Convert.ToInt32(Console.ReadLine());
+            numero = Convert.ToDouble(Console.ReadLine());
             inverso = 1 / numero;
             quadrado = inverso * inverso;
             resultado = (quadrado * numero);

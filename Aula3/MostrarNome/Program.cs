@@ -8,7 +8,6 @@ namespace MostrarNome
         static void Main(string[] args)
         {
             string nome = "";
-            string sobrenome = "";
 
             Console.Clear();
 
@@ -16,9 +15,9 @@ namespace MostrarNome
             Console.WriteLine("Digite seu primeiro nome:");
             nome = Console.ReadLine();
             Console.WriteLine("Digite seu sobrenome:");
-            sobrenome = Console.ReadLine();
+            nome += " " + Console.ReadLine();
 
-            Console.WriteLine("Nome: " + nome + " " + sobrenome);
+            Console.WriteLine("Nome: " + nome);
         }
     }
 }

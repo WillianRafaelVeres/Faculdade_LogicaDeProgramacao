@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\LogicaDeProgramacao\\MostrarNome\\MostrarNome.csproj",
+      "projectUniqueName": "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\Faculdade_LogicaDeProgramacao\\Aula3\\MostrarNome\\MostrarNome.csproj",
       "projectName": "MostrarNome",
-      "projectPath": "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\LogicaDeProgramacao\\MostrarNome\\MostrarNome.csproj",
+      "projectPath": "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\Faculdade_LogicaDeProgramacao\\Aula3\\MostrarNome\\MostrarNome.csproj",
       "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\LogicaDeProgramacao\\MostrarNome\\obj\\",
+      "outputPath": "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\Faculdade_LogicaDeProgramacao\\Aula3\\MostrarNome\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

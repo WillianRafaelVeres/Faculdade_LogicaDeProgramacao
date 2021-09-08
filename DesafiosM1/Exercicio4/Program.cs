@@ -47,18 +47,13 @@ namespace Exercicio4
         {
             double somaValorNota; // Variável da soma dos valores das notas
             double somaNotas; // Variável da soma das notas
-            double totalNota1; // Variável da multiplicação da nota1 e valorNota1
-            double totalNota2; // Variável da multiplicação da nota2 e valorNota2
-            double totalNota3; // Variável da multiplicação da nota3 e valorNota3
             double notaFinal; // Valor nota final
 
             somaNotas = nota1*valorNota1 + nota2*valorNota2 + nota3*valorNota3; // Multiplica a nota pelos seus valores e armazena em somaNotas
             somaValorNota = valorNota1 + valorNota2 + valorNota3; // Soma os valores das notas e armazena em somaValorNota
-            totalNota1 = nota1 * valorNota1; // multiplica a nota1 pelo valorNota1
-            totalNota2 = nota2 * valorNota2; // multiplica a nota2 pelo valorNota2
-            totalNota3 = nota3 * valorNota3; // multiplica a nota3 pelo valorNota3
             notaFinal = somaNotas / somaValorNota; // divide a somaNotas por somaValorNota
             Console.WriteLine(notaFinal); // Mostra a nota final na tela
+            
         }
     }
 }

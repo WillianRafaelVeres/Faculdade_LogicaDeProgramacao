@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\Faculdade_LogicaDeProgramacao\\Aula5\\Exercicio4\\Exercicio4.csproj": {}
+    "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\Faculdade_LogicaDeProgramacao\\Aula8\\Exercicio4\\Exercicio4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\Faculdade_LogicaDeProgramacao\\Aula5\\Exercicio4\\Exercicio4.csproj": {
+    "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\Faculdade_LogicaDeProgramacao\\Aula8\\Exercicio4\\Exercicio4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\Faculdade_LogicaDeProgramacao\\Aula5\\Exercicio4\\Exercicio4.csproj",
+        "projectUniqueName": "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\Faculdade_LogicaDeProgramacao\\Aula8\\Exercicio4\\Exercicio4.csproj",
         "projectName": "Exercicio4",
-        "projectPath": "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\Faculdade_LogicaDeProgramacao\\Aula5\\Exercicio4\\Exercicio4.csproj",
+        "projectPath": "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\Faculdade_LogicaDeProgramacao\\Aula8\\Exercicio4\\Exercicio4.csproj",
         "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\Faculdade_LogicaDeProgramacao\\Aula5\\Exercicio4\\obj\\",
+        "outputPath": "C:\\Users\\willi\\Documents\\Willian_Rafael_Veres\\Faculdade\\Faculdade_LogicaDeProgramacao\\Aula8\\Exercicio4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

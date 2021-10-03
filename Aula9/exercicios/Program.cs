@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace exercicios
 {
@@ -30,8 +31,8 @@ namespace exercicios
 
         static void Exercicio6(){
 
-            int[] numeros;
-            int soma;
+            List<int> numeros = new List<int>();
+            int soma = 0;
 
             Console.Clear();
             Console.WriteLine("Exercício6");
@@ -39,7 +40,7 @@ namespace exercicios
             for( int contador = 0; contador <= 9; contador++){
 
                 Console.WriteLine("Digite um numero:");
-                numeros[contador] = int.Parse(Console.ReadLine());
+                numeros.Add(int.Parse(Console.ReadLine()));
             }
 
             for( int contador = 0; contador <= 9; contador++){
@@ -48,9 +49,8 @@ namespace exercicios
 
             }
 
-            Console.WriteLine($"A soma dos números é {soma}!");
+            Console.WriteLine($"\nA soma dos números é {soma}!");
             Console.WriteLine($"A média dos números é {soma/10}!");
-
 
             FuncaoParaContinuar();
 
@@ -58,16 +58,64 @@ namespace exercicios
 
         static void Exercicio7(){
 
+            double numeroBase;
+            double numeroDeElevacao;
+            double somaDaSerie;
+
             Console.Clear();
             Console.WriteLine("Exercício7");
+
+            Console.Write("Digite o número base: ");
+            numeroBase = double.Parse(Console.ReadLine());
+            Console.Write("A quanto esse número será elevado? ");
+            numeroDeElevacao = double.Parse(Console.ReadLine());
+
+            somaDaSerie = numeroBase;
+
+            for(int contador = 2; contador <= numeroDeElevacao; contador++){
+
+                somaDaSerie += (Math.Pow(numeroBase,contador));
+
+            }
+
+            Console.WriteLine($"A soma da série é {Math.Round(somaDaSerie,2)}!");
+
             FuncaoParaContinuar();
 
         }
 
         static void Exercicio8(){
 
+            float numeroParaSerie;
+            float resultado = 0;
+
             Console.Clear();
             Console.WriteLine("Exercício8");
+
+            Console.Write("Digite um número para a série: ");
+            numeroParaSerie = float.Parse(Console.ReadLine());
+
+            for(float contador = 1; contador <= (numeroParaSerie + 1); contador++){
+                
+                if (contador == 1)
+                {
+                    Console.WriteLine();
+                }
+
+                Console.Write($" 1/{contador} ");
+                resultado += 1/contador;
+
+                if (contador <= numeroParaSerie)
+                {
+                    Console.Write("+");
+                }
+            }
+
+            Console.WriteLine($"\n\nO resultado é {Math.Round(resultado,6)}!");
+
+
+
+
             FuncaoParaContinuar();
 
         }
@@ -113,7 +161,7 @@ namespace exercicios
 
             int opcaoParaContinuar;
 
-            Console.WriteLine("Digite [1] - Para executar outro exercicio!");
+            Console.WriteLine("\nDigite [1] - Para executar outro exercicio!");
             Console.WriteLine("Digite [2] - Para fechar o programa!");
 
             opcaoParaContinuar = int.Parse(Console.ReadLine());

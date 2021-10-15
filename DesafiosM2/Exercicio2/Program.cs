@@ -4,42 +4,95 @@ namespace Exercicio2
 {
     class Program
     {
+        static bool continuar = true;
+        static double valorTotal = 0;
+        static double quantidade = 0;
+
         static void Main(string[] args)
         {
-            Console.Clear();
-            LeituraEValidacao();
             
+            string codigo;
+
+            Console.Clear();
+
+            while(continuar == true){
+                codigo = LeituraEValidacao();
+                quantidade = QuantidadeDeCompra();
+                ValorCodigo(codigo);
+                NovoCodigo();
+            }
+            
+            Console.Clear();
+            Console.WriteLine($"O valor total é: R$ {Math.Round(valorTotal, 2)},00");
         }
 
         static string LeituraEValidacao(){
 
             string codigo;
 
-            Console.Write("Digite o código:");
+            Console.Write("\n ABCD \n XYPK \n KLMP \n QRST \n Digite o código:");
             codigo = Console.ReadLine();
 
+
             if(codigo == "ABCD" || codigo == "XYPK" || codigo == "KLMP" || codigo == "QRST"){
-                Console.WriteLine("Tudo certo");
                 return codigo;
             }
 
             else{
 
-                Console.WriteLine("Código inválido! Tente novamente! \n");
+                Console.WriteLine("\nCódigo inválido! Tente novamente! \n");
                 LeituraEValidacao();
+                return "";
             }
-
-            /*02) Um vendedor precisa de um programa que calcule o preço total devido por um cliente. O
-            algoritmo deve receber o código de um produto e a quantidade comprada e calcular o preço
-                total, usando a tabela abaixo. Mostre uma mensagem no caso de código inválido. Código
-            Preço Unitário 'ABCD' R$100 'XYPK' R$ 200 'KLMP' R$400 'QRST' R$ 1000.
-            Código Valor
-            ABCD 100
-            XYPK 200
-            KLMP 400
-            QRST 1000*/
 
         }
 
+        static void ValorCodigo(string codigo){
+
+            switch(codigo){
+
+                case "ABCD":
+                    valorTotal += 100 * quantidade;
+                    break;
+
+                case "XYPK":
+                    valorTotal += 200 * quantidade;
+                    break;
+                
+                case "KLMP":
+                    valorTotal += 300 * quantidade;
+                    break;
+                
+                case "QRST":
+                    valorTotal += 1000 * quantidade;
+                    break;
+                    
+            } 
+
+        }
+
+        static void NovoCodigo(){
+
+            Console.WriteLine("Deseja adicionar um novo código? (SIM/NAO)");
+
+            if (Console.ReadLine() == "SIM")
+            {
+                continuar = true;
+            }
+            else if (Console.ReadLine() == "NAO")
+            {
+                continuar = false;
+            }
+            else{
+                Console.WriteLine("ERRO! Digite Novamente!");
+                NovoCodigo();
+            }
+        }
+
+        static double QuantidadeDeCompra(){
+
+            Console.Write("\nQuantidade: ");
+            return double.Parse(Console.ReadLine());
+        }
     }
 }

@@ -4,9 +4,36 @@ namespace Exercicio5
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+
+        static int[] numeros = new int[3];
+
+        static void Main(string[] args){
+
+            Console.Clear();
+
+            LerInt();
+            Array.Sort(numeros);
+            MostrarNumeros(numeros);
+        }
+
+        static void LerInt(){
+            
+            for (int i = 0; i < 3; i++)
+            {
+                Console.Write("Digite um número inteiro: ");
+                numeros[i] = int.Parse(Console.ReadLine());
+            }
+
+        }
+
+        static void MostrarNumeros(int[] numerosLista){
+
+            Console.WriteLine($"\nLista ordenada:");
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine($"{numerosLista[i]}");
+            }
+            Console.WriteLine();
         }
     }
 }

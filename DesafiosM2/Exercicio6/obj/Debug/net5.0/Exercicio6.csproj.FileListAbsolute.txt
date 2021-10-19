@@ -1,0 +1,16 @@
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\obj\Debug\net5.0\Exercicio6.csprojAssemblyReference.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\obj\Debug\net5.0\Exercicio6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\obj\Debug\net5.0\Exercicio6.AssemblyInfoInputs.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\obj\Debug\net5.0\Exercicio6.AssemblyInfo.cs
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\obj\Debug\net5.0\Exercicio6.csproj.CoreCompileInputs.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\bin\Debug\net5.0\Exercicio6.exe
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\bin\Debug\net5.0\Exercicio6.deps.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\bin\Debug\net5.0\Exercicio6.runtimeconfig.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\bin\Debug\net5.0\Exercicio6.runtimeconfig.dev.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\bin\Debug\net5.0\Exercicio6.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\bin\Debug\net5.0\ref\Exercicio6.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\bin\Debug\net5.0\Exercicio6.pdb
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\obj\Debug\net5.0\Exercicio6.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\obj\Debug\net5.0\ref\Exercicio6.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\obj\Debug\net5.0\Exercicio6.pdb
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM2\Exercicio6\obj\Debug\net5.0\Exercicio6.genruntimeconfig.cache

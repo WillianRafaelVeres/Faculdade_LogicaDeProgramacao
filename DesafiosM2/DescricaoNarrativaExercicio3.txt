@@ -1,0 +1,49 @@
+INICIO_EXERCICIO_3
+
+	Cria a variável saldoConta
+	Cria a variável operação
+	Cria a variável valorOperacao	
+
+	Função Principal
+   Cria a variável numeroConta
+   
+   Chama a função LerInt passando mensagem e armazena em numeroConta
+   Chama a função LerInt passando mensagem e armazena em saldoConta
+   Chama a função LerOperacao e armazena em operacaoConta
+   Chama a função LerInt passando mensagem e armazena em valorOperacao
+   
+   Chama o procedimento RealizarOperacao passando paramentro
+   Chama o procedimento Situacao
+   
+   Mostra a conta
+   Mostra o saldo
+   
+   Função LerInt
+   Mensagem solicitando um numero
+      Retorna o que for digitado passado para inteiro
+
+	Função LerOperacao
+		Cria a variável operacaoDigitada
+		Mostra mensagem
+		operacaoDigitada recebe o que for digitado passado para inteiro
+
+		Se operacaoDigitada for igual a 1 ou 2
+			Retorna operacaoDigitada
+		Senão
+			Mostra mensagem
+			Chama função LerOperacao
+
+	Procedimento RealizarOperacao(opera)
+		Se opera for igual a 1
+			saldoConta adiciona valorOperacao
+		Se opera for igual a 2
+			saldoConta subtrai valorOperacao
+
+	Procedimento Situacao
+		Se saldoConta for menor que 0
+			Mensagem
+		Senão
+			Mensagem
+
+
+FIM_ALGORITMO

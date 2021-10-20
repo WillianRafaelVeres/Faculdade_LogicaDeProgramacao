@@ -73,13 +73,16 @@ namespace Exercicio2
 
         static void NovoCodigo(){
 
-            Console.WriteLine("Deseja adicionar um novo código? (SIM/NAO)");
+            string resposta;
 
-            if (Console.ReadLine() == "SIM")
+            Console.WriteLine("Deseja adicionar um novo código? (SIM/NAO)");
+            resposta = Console.ReadLine();
+
+            if (resposta == "SIM")
             {
                 continuar = true;
             }
-            else if (Console.ReadLine() == "NAO")
+            else if (resposta == "NAO")
             {
                 continuar = false;
             }

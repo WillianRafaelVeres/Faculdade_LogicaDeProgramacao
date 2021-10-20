@@ -1,0 +1,65 @@
+INICIO_EXERCICIO_2
+
+	Cria variável continuar
+	Cria variável valorTotal
+	Cria variável quantidade
+
+
+	Função Principal
+      	   Cria variável codigo
+
+      	   Enquanto continuar ser verdade
+		chama função LeituraEValidacao e armazena em codigo
+		chama função QuantidadeDeCompra e armazana em quantidade
+		chama procedimento NovoCodigo
+
+	   Mensagem com o valor total
+
+	Função LeituraEValidacao
+
+	   Cria variável codigo
+	   Mostra mensagem
+	   codigo recebe o que for digitado
+
+	   Se codigo for válido
+		retorna codigo
+	   Senão
+		Mostra mensagem
+		chama a função LeituraEValidacao
+
+	Procedimento ValorCodigo(código)
+
+	   switch passa o código de parametro
+	   	caso "ABCD"
+		   valorTotal recebe o resultado de 100 vezes a quantidade
+		   break
+	   	caso "XYPK"
+		   valorTotal recebe o resultado de 200 vezes a quantidade
+		   break
+	   	caso "KLMP"
+		   valorTotal recebe o resultado de 300 vezes a quantidade
+		   break
+	   	caso "QRST"
+		   valorTotal recebe o resultado de 1000 vezes a quantidade
+		   break
+
+	Procedimento NovoCodigo
+
+	   Cria variável resposta
+	   
+	   Mostra mensagem
+	   
+	   Se resposta for sim
+		continuar recebe true
+	   Se resposta for nao
+		continuar recebe false
+	   Senão
+		Mostra mensagem de erro
+		Chama procedimento NovoCodigo
+
+	Função QuantidadeDeCompra
+	   Mostra mensagem
+	   retorna o que for digitado convertido para double
+
+
+FIM_ALGORITMO

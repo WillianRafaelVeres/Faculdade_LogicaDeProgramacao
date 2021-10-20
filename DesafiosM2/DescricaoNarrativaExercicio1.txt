@@ -1,0 +1,35 @@
+INICIO_EXERCICIO_1
+	Função Principal
+      	   Cria a variável mediaSaldo
+      	   Mensagem sobre o programa
+      	   Chama função LerMediaSaldo e armazena em mediaSaldo
+      	   Chama procedimento CalculaCredito e passa mediaSaldo como parâmetro
+
+	Função LerMediaSaldo
+      	   Mensagem pedindo o valor dá media
+      	   Retorna o valor digitado convertido para double
+      
+      	Função CalculaCredito(saldo)
+      	    Cria a variável valorCredito
+      	    Cria a variável valorTotal
+      
+      	   Se saldo for menor que 200
+        	Mostra mensagem
+      		valorCredito recebe 0%
+      	   Se saldo for menor que 400
+      		Mostra mensagem
+      		valorCredito recebe 20%
+      	   Se saldo for menor que 600
+      		Mostra mensagem
+      		valorCredito recebe 30%
+      	   Se saldo for maior que 600
+      		Mostra mensagem
+      		valorCredito recebe 40%
+      
+      	   valorTotal recebe valorCredito mais saldo
+      
+      	   Mensagem do saldo
+      	   Mensagem do crédito
+      	   Mensagem do valor total
+
+FIM_ALGORITMO

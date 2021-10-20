@@ -1,0 +1,20 @@
+INICIO_EXERCICIO_10
+
+      Função Principal
+      	Cria a variável numero
+      	
+      	Chama a função LerNumero e armazena em numero
+      	Cria um for com 10 loops
+      		Mostra o numero e resultado (número x i)
+
+  	Função LerNumero
+  		Cria a variável numero 
+  				
+  		Mostra a mensagem
+  		Armazena o que for digitado convertido para int
+  		Cria um while numero for menor que 1 ou maior que 10
+  			Mostra mensagem
+  			Armazena o que for digitado convertido para int
+  		Retorna numero
+  
+FIM_ALGORITMO

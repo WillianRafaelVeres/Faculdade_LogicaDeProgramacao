@@ -1,0 +1,32 @@
+INICIO_EXERCICIO_6
+
+      Cria um arrey de int
+
+      Função Principal
+      Cria a variável resultado
+      Chama o procedimento LerEValidarValores
+      Chama a função Divisão e armazena em resultado
+      Chama o procedimento passando resultado como parâmetro
+      
+      Procedimento LerEValidarValores
+      Cria um for de 2 loops
+      	Mensagem solicitando um número
+      	Adiciona o número digitado no Arrey
+      Se o segundo elemento do arrey for 0
+      	Cria a variável index que recebe 1
+      	Cria um for
+      		Mostra mensagem
+      		Segundo elemento do arrey recebe o que for digitado
+      		Se o segundo elemento do arrey for 0
+      			Index acrescenta 1
+
+	Função Divisao
+		Retorna o primeiro número do arrey dividido pelo segundo
+
+	Procedimento MostrarResultado
+		Mostra mensagem
+      Cria um for de 2 loops
+      	Mostra os números que foram digitados
+      Mostra o resultado
+
+FIM_ALGORITMO

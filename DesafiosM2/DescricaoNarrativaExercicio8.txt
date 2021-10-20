@@ -1,0 +1,45 @@
+INICIO_EXERCICIO_8
+
+      Cria a variável index
+
+      Função Principal
+      Cria a variável resposta
+      
+      	Cria um while true
+      		Chama o procedimento Resultado
+      		Chama a função Repetir e armazena em resposta
+      		
+      		Se resposta for igual a N
+      			Break
+  	Função LerNotas
+  		Cria a variável soma
+  		Cria a variável resposta
+  		Index recebe 0
+  		
+  		Cria um while true
+  			Mostra mensagem
+  			Converte o que for digitado e acrescenta em soma
+  			Index acrescenta 1
+  
+  			Chama a função Repetir e armazena em resposta
+  			Se resposta for igual a N
+  				Break
+  		Retorna a soma
+  
+  	Função Repetir(mensagem)
+  		Cria a variável resposta
+  		
+  		Mostra a mensagem
+  		Armazena o que for digitado em resposta
+  
+  		Cria um while resposta diferente de S e N
+  			Mostra mensagem
+  			Armazena o que for digitado em resposta
+		Retorna resposta
+
+	Procedimento Resultado
+		Cria a variável soma
+		
+		Chama a função LerNotas e armazena em soma
+		Mostra o resultado
+FIM_ALGORITMO

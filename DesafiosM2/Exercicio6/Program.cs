@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Victor e Willian - 20/10/2021
+using System;
 
 namespace Exercicio6
 {
@@ -10,6 +11,7 @@ namespace Exercicio6
         {
             double resultado;
 
+            // Função para limpar o terminal
             Console.Clear();
             LerEValidarValores();
             resultado = Divisao();
@@ -26,14 +28,14 @@ namespace Exercicio6
 
             if (numeros[1] == 0)
             {
-                int i3 = 1;
+                int index = 1;
 
-                for (int i = 0; i < i3; i++)
+                for (int i = 0; i < index; i++)
                 {
                     Console.Write("Valor inválido! Tente Novamente: ");
                     numeros[1] = double.Parse(Console.ReadLine());
                     if(numeros[1] == 0){
-                        i3 ++;
+                        index ++;
                     }
 
                 }

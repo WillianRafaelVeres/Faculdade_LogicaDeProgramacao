@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Victor e Willian - 20/10/2021
+using System;
 
 namespace Exercicio3
 {
@@ -12,6 +13,7 @@ namespace Exercicio3
         {
             int numeroConta;
             
+            // Função para limpar o terminal
             Console.Clear();
 
             numeroConta = LerInt("o numero da sua conta");

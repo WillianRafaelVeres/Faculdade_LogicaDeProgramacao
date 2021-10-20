@@ -1,0 +1,21 @@
+INICIO_EXERCICIO_9
+
+      Função Principal
+      	Cria a variável numero
+      	
+      	Chama a função LerNumero e armazena em numero
+      	Cria um while numero for maior que 0
+      		Mostra o numero
+      		Numero menos 1
+
+  	Função LerNumero
+  		Cria a variável numero 
+  				
+  		Mostra a mensagem
+  		Armazena o que for digitado convertido para int
+  		Cria um while numero for menor ou igual a 0
+  			Mostra mensagem
+  			Armazena o que for digitado convertido para int
+  		Retorna numero
+  
+FIM_ALGORITMO

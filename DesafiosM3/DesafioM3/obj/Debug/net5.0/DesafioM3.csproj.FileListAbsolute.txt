@@ -1,0 +1,16 @@
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\obj\Debug\net5.0\DesafioM3.csprojAssemblyReference.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\obj\Debug\net5.0\DesafioM3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\obj\Debug\net5.0\DesafioM3.AssemblyInfoInputs.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\obj\Debug\net5.0\DesafioM3.AssemblyInfo.cs
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\obj\Debug\net5.0\DesafioM3.csproj.CoreCompileInputs.cache
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\bin\Debug\net5.0\DesafioM3.exe
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\bin\Debug\net5.0\DesafioM3.deps.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\bin\Debug\net5.0\DesafioM3.runtimeconfig.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\bin\Debug\net5.0\DesafioM3.runtimeconfig.dev.json
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\bin\Debug\net5.0\DesafioM3.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\bin\Debug\net5.0\ref\DesafioM3.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\bin\Debug\net5.0\DesafioM3.pdb
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\obj\Debug\net5.0\DesafioM3.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\obj\Debug\net5.0\ref\DesafioM3.dll
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\obj\Debug\net5.0\DesafioM3.pdb
+C:\Users\willi\Documents\Willian_Rafael_Veres\Faculdade\Faculdade_LogicaDeProgramacao\DesafiosM3\DesafioM3\obj\Debug\net5.0\DesafioM3.genruntimeconfig.cache

@@ -12,7 +12,7 @@ namespace DesafioM3
             return (Math.PI * (r * r) * h);
         }
 
-        public static double CalculaAreaDaBase(double h){
+        public static double CalculaAreaDaBase(double r){
             return (Math.PI * (r * r));
         }
 

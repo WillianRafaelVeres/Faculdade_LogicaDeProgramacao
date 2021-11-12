@@ -11,7 +11,7 @@ namespace DesafioM3
         }
 
         public static double CalculaVolume(double r){
-            return ((4/3) * Math.PI * (r * r * r));
+            return (4 * Math.PI * (Math.Pow(r,3)))/3;
         }
     }
 }

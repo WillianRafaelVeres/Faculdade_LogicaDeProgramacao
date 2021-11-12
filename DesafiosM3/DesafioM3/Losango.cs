@@ -16,8 +16,15 @@ namespace DesafioM3
             return ((diagonalMenor * diagonalMaior)/2) * profundidade;
         }
 
-        public static double CalculaPerimetroDaBase(double diagonalMenor){
-            return 4 * diagonalMenor;
+        public static double CalculaPerimetroDaBase(double diagonalMenor, double diagonalMaior){
+
+            double x;
+            double x1;
+
+            x = ((diagonalMenor*diagonalMenor)+(diagonalMaior*diagonalMaior));
+            x1 = Math.Sqrt(x);
+
+            return 4 * x1;
         }
     }
 }

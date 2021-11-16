@@ -4,14 +4,37 @@ namespace DesafioM3
 {
     class Circulo
     {
-        public static double raio;
+        private double raio;
+
+        private double area;
+        private double perimetro;
+
+        public Circulo(double r){
+
+            raio = r;
+
+            area = null;
+            perimetro = null;
+
+        }
         
-        public static double CalculaArea(double r){
-            return (Math.PI * (r * r));
+        public void CalculaArea(){
+            area = (Math.PI * (raio * raio));
         }
 
-        public static double CalculaPerimetro(double r){
-            return (2 * Math.PI * r);
+        public void CalculaPerimetro(){
+            perimetro = (2 * Math.PI * raio);
         }
+
+        public double get_area()
+        {
+            return area;
+        }
+
+        public double get_perimetro()
+        {
+            return perimetro;
+        }
+
     }
 }

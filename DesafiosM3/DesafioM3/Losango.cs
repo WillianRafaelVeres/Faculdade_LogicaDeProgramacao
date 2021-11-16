@@ -4,19 +4,35 @@ namespace DesafioM3
 {
     class Losango
     {
-        public static double diagonalMenor;
-        public static double diagonalMaior;
-        public static double profundidade;
+        private double diagonalMenor;
+        private double diagonalMaior;
+        private double profundidade;
+
+        private double area;
+        private double volume;
+        private double perimetroDaBase;
+
+        public Losango(double dMenor, double dMaior, double profun){
+
+            diagonalMenor = dMenor;
+            diagonalMaior = dMaior;
+            profundidade = profun;
+
+            area = null;
+            volume = null;
+            perimetroDaBase = null;
+
+        }
         
-        public static double CalculaArea(double diagonalMenor, double diagonalMaior){
-            return (diagonalMenor * diagonalMaior)/2;
+        public void CalculaArea(){
+            area = (diagonalMenor * diagonalMaior)/2;
         }
 
-        public static double CalculaVolume(double diagonalMenor, double diagonalMaior, double profundidade){
-            return ((diagonalMenor * diagonalMaior)/2) * profundidade;
+        public void CalculaVolume(){
+            volume = ((diagonalMenor * diagonalMaior)/2) * profundidade;
         }
 
-        public static double CalculaPerimetroDaBase(double diagonalMenor, double diagonalMaior){
+        public void CalculaPerimetroDaBase(){
 
             double x;
             double x1;
@@ -24,7 +40,22 @@ namespace DesafioM3
             x = ((diagonalMenor*diagonalMenor)+(diagonalMaior*diagonalMaior));
             x1 = Math.Sqrt(x);
 
-            return 4 * x1;
+            perimetroDaBase = 4 * x1;
+        }
+
+        public double get_area()
+        {
+            return area;
+        }
+
+        public double get_volume()
+        {
+            return volume;
+        }
+
+        public double get_perimetroDaBase()
+        {
+            return perimetroDaBase;
         }
     }
 }

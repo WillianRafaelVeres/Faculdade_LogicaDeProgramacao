@@ -6,21 +6,21 @@ namespace DesafioM3
     {
         private double raio;
         private double altura;
-        private double volume;
 
         private double areaDaBase;
-        private double areaLateal;
+        private double areaLateral;
         private double areaTotal;
         private double perimetro;
+        private double volume;
 
-        public Cilindro(double r, double a, double v){
+        public Cilindro(double r, double h){
             
             raio = r;
             altura = a;
-            volume = v;
-
+            
+            volume = null;
             areaDaBase = null;
-            areaLateal = null;
+            areaLateral = null;
             areaTotal = null;
             perimetro = null;
 
@@ -28,54 +28,48 @@ namespace DesafioM3
 
         public void CalculaVolume()
         {
-            areaDaBase = (Math.PI * (r * r) * h);
+            volume = (Math.PI * (raio * raio) * altura);
         }
 
         public void CalculaAreaDaBase(){
-            areaLateal = (Math.PI * (r * r));
+            areaDaBase = (Math.PI * (raio * raio));
         }
 
         public void CalculaAreaLateral(){
-            return (2 * Math.PI * r * h);
+            areaLateral = (2 * Math.PI * raio * altura);
         }
 
-        public static double CalculaAreaTotal(double r, double h){
-            return ((2 * Math.PI * (r * r)) + (2 * Math.PI * r * h));
+        public static double CalculaAreaTotal(double raio, double altura){
+            areaTotal = ((2 * Math.PI * (raio * raio)) + (2 * Math.PI * raio * altura));
         }
 
-        public static double CalculaPerimetro(double r){
-            return (2 * Math.PI * r);
+        public static double CalculaPerimetro(double raio){
+            perimetro = (2 * Math.PI * raio);
         }
-    }
-}
 
-//m4rc3lo - 12/11/2021
-using System; // inclusão de Math / Console 
-namespace M3
-{
-
-        // procedimento, calcula a área da esfera
-        //armazena na variável de instância
-        public void calcula_area()
+        public double get_areaDaBase()
         {
-            area = 4 * Math.PI * Math.Pow(raio, 2);
-        }
-        //procedimento, calcula o volume da esfera
-        //armazena na variável de isntância
-        public void calcula_volume()
-        {
-            volume = (4 * Math.PI  * Math.Pow(raio, 3)) / 3;
+            return areaDaBase;
         }
 
-        // funções para acessar o valor das variáveis de instância
-        public double  get_area()
+        public double get_areaLateral()
         {
-            return area; // retorna o valor da área 
+            return areaLateral;
         }
+
+        public double get_areaTotal()
+        {
+            return areaTotal;
+        }
+
+        public double get_perimetro()
+        {
+            return perimetro;
+        }
+
         public double get_volume()
         {
-            return volume; //retorna o valor do volume
+            return volume;
         }
-        ///---------------------------------------------------------------
     }
 }

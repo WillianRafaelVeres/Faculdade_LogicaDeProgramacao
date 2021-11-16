@@ -4,14 +4,36 @@ namespace DesafioM3
 {
     class Esfera
     {
-        public static double raio;
+        private double raio;
         
-        public static double CalculaArea(double r){
-            return (4 * Math.PI * (r * r));
+        private double area;
+        private double volume;
+
+        public Esfera(double r){
+
+            raio = r;
+
+            area = null;
+            volume = null;
+
         }
 
-        public static double CalculaVolume(double r){
-            return (4 * Math.PI * (Math.Pow(r,3)))/3;
+        public void CalculaArea(){
+            area = (4 * Math.PI * (raio * raio));
+        }
+
+        public void CalculaVolume(){
+            volume = (4 * Math.PI * (Math.Pow(raio,3)))/3;
+        }
+
+        public double get_area()
+        {
+            return area;
+        }
+
+        public double get_volume()
+        {
+            return volume;
         }
     }
 }

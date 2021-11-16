@@ -4,22 +4,48 @@ namespace DesafioM3
 {
     class TrianguloEquilatero
     {
-        public static double altura;
-        public static double profundidade;
+        private double altura;
+        private double profundidade;
+
+        private double area;
+        private double volume;
+        private double perimetro;
+
+        public TrianguloEquilatero(double h, double p){
+            altura = h;
+            profundidade = p;
+
+            area = null;
+            volume = null;
+            perimetro = null;
+        }
 
         
-        public static double CalculaArea(double h){
-            return ((h * h) / Math.Sqrt(3));
+        public void CalculaArea(){
+            area = ((altura * altura) / Math.Sqrt(3));
         }
 
-        public static double CalculaVolume(double h, double prof){
-            return (((h * h)/3) * prof);
+        public void CalculaVolume(){
+            volume = (((altura * altura)/3) * profundidade);
         }
 
-        public static double CalculaPerimetro(double h){
-            
-            return ( 3 * ( 2 * h ) / Math.Sqrt(3));
+        public void CalculaPerimetro(){ 
+            perimetro = ( 3 * ( 2 * altura ) / Math.Sqrt(3));
+        }
 
+        public double get_area()
+        {
+            return area;
+        }
+
+        public double get_volume()
+        {
+            return volume;
+        }
+
+        public double get_perimetro()
+        {
+            return perimetro;
         }
     }
 }

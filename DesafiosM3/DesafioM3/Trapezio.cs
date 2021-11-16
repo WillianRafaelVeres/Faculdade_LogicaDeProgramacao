@@ -4,17 +4,40 @@ namespace DesafioM3
 {
     class Trapezio
     {
-        public static double altura;
-        public static double baseMaior;
-        public static double baseMenor;
-        public static double profundidade;
+        private double altura;
+        private double baseMaior;
+        private double baseMenor;
+        private double profundidade;
 
-        public static double CalculaArea(double h, double bMaior, double bMenor){
-            return ((bMenor + bMaior)*h)/2;
+        private double area;
+        private double volume;
+
+        public Trapezio(double h, double bMaior, double bMenor, double p){
+            altura = h;
+            baseMaior = bMaior;
+            baseMenor = bMenor;
+            profundidade = p;
+
+            area = null;
+            volume = null;;
         }
 
-        public static double CalculaVolume(double h, double bMaior, double bMenor, double profundidade){
-            return (((bMenor + bMaior)* h) * profundidade * (bMenor + bMaior) / 2);
+        public void CalculaArea(){
+            area = ((baseMenor + baseMaior)*altura)/2;
+        }
+
+        public void CalculaVolume(){
+            volume = (((baseMenor + baseMaior)* altura) * profundidade * (baseMenor + baseMaior) / 2);
+        }
+
+        public double get_area()
+        {
+            return area;
+        }
+
+        public double get_volume()
+        {
+            return volume;
         }
     }
 }

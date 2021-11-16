@@ -4,20 +4,51 @@ namespace DesafioM3
 {
     class Quadrado
     {
-        public static double altura;
-        public static double base1;
-        public static double profundidade;
+        private double altura;
+        private double base1;
+        private double profundidade;
 
-        public static double CalculaArea(double h, double b){
-            return h * b;
+        private double area;
+        private double volume;
+        private double perimetro;
+
+        public Quadrado(double h, double b, double p){
+
+            altura = h;
+            base1 = b;
+            profundidade = p;
+
+            area = null;
+            volume = null;
+            perimetro = null;
+
         }
 
-        public static double CalculaVolume(double h, double b, double p){
-            return h * b * p;
+        public static double CalculaArea(){
+            area = altura * base1;
         }
 
-        public static double CalculaPerimetro(double h, double b){
-            return (( 2 * h ) + ( 2 * b ));
+        public static double CalculaVolume(){
+            volume = altura * base1 * profundidade;
+        }
+
+        public static double CalculaPerimetro(){
+            perimetro = (( 2 * altura ) + ( 2 * base1 ));
+        }
+
+        public double get_area()
+        {
+            return area;
+        }
+
+        public double get_volume()
+        {
+            return volume;
+        }
+
+        public double get_perimetro()
+        {
+            return perimetro;
         }
     }
 }

@@ -4,28 +4,57 @@ namespace DesafioM3
 {
     class TrianguloIsosceles
     {
-        public static double altura;
-        public static double base1;
-        public static double profundidade;
+        private double altura;
+        private double base1;
+        private double profundidade;
+
+        private double area;
+        private double volume;
+        private double perimetro;
+
+        public TrianguloIsosceles(double h, double b, double p){
+            altura = h;
+            base1 = b;
+            profundidade = p;
+
+            area = null;
+            volume = null;
+            perimetro = null;
+        }
         
-        public static double CalculaArea(double h, double base2){
-            return (h * base2 / 2);
+        public void CalculaArea(){
+            area = (altura * base1 / 2);
         }
 
-        public static double CalculaVolume(double h, double base2, double profundidade){
-            return (h * base2 / 2) * profundidade;
+        public void CalculaVolume(){
+            volume = (altura * base1 / 2) * profundidade;
         }
 
-        public static double CalculaPerimetro(double h, double base2){
+        public void CalculaPerimetro(){
             double resultado1;
             double resultado2;
             
-            resultado1 = ((base2 / 2) * (base2 / 2));
-            resultado2 = Math.Sqrt((h * h) + resultado1 + base2);
+            resultado1 = ((base1 / 2) * (base1 / 2));
+            resultado2 = Math.Sqrt((altura * altura) + resultado1 + base1);
 
-            return 2 * resultado2;
+            perimetro = 2 * resultado2;
 
             // ---- RESULTADO ERRADO
+        }
+
+        public double get_area()
+        {
+            return area;
+        }
+
+        public double get_volume()
+        {
+            return volume;
+        }
+
+        public double get_perimetro()
+        {
+            return perimetro;
         }
     }
 }

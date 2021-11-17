@@ -16,13 +16,13 @@ namespace DesafioM3
         public Cilindro(double r, double h){
             
             raio = r;
-            altura = a;
+            altura = h;
             
-            volume = null;
-            areaDaBase = null;
-            areaLateral = null;
-            areaTotal = null;
-            perimetro = null;
+            volume = 0;
+            areaDaBase = 0;
+            areaLateral = 0;
+            areaTotal = 0;
+            perimetro = 0;
 
         }
 
@@ -39,11 +39,11 @@ namespace DesafioM3
             areaLateral = (2 * Math.PI * raio * altura);
         }
 
-        public static double CalculaAreaTotal(double raio, double altura){
+        public void CalculaAreaTotal(){
             areaTotal = ((2 * Math.PI * (raio * raio)) + (2 * Math.PI * raio * altura));
         }
 
-        public static double CalculaPerimetro(double raio){
+        public void CalculaPerimetro(){
             perimetro = (2 * Math.PI * raio);
         }
 

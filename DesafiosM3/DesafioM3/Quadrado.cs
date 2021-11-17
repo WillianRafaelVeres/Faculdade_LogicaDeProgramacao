@@ -18,21 +18,21 @@ namespace DesafioM3
             base1 = b;
             profundidade = p;
 
-            area = null;
-            volume = null;
-            perimetro = null;
+            area = 0;
+            volume = 0;
+            perimetro = 0;
 
         }
 
-        public static double CalculaArea(){
+        public void CalculaArea(){
             area = altura * base1;
         }
 
-        public static double CalculaVolume(){
+        public void CalculaVolume(){
             volume = altura * base1 * profundidade;
         }
 
-        public static double CalculaPerimetro(){
+        public void CalculaPerimetro(){
             perimetro = (( 2 * altura ) + ( 2 * base1 ));
         }
 

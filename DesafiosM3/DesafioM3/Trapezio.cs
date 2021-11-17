@@ -18,8 +18,8 @@ namespace DesafioM3
             baseMenor = bMenor;
             profundidade = p;
 
-            area = null;
-            volume = null;;
+            area = 0;
+            volume = 0;;
         }
 
         public void CalculaArea(){

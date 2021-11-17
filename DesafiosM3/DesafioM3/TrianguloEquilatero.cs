@@ -15,9 +15,9 @@ namespace DesafioM3
             altura = h;
             profundidade = p;
 
-            area = null;
-            volume = null;
-            perimetro = null;
+            area = 0;
+            volume = 0;
+            perimetro = 0;
         }
 
         

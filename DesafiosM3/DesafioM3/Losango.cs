@@ -18,9 +18,9 @@ namespace DesafioM3
             diagonalMaior = dMaior;
             profundidade = profun;
 
-            area = null;
-            volume = null;
-            perimetroDaBase = null;
+            area = 0;
+            volume = 0;
+            perimetroDaBase = 0;
 
         }
         

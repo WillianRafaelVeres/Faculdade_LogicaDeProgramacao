@@ -4,20 +4,47 @@ namespace DesafioM3
 {
     class TrianguloRetangulo
     {
-        public static double altura;
-        public static double base1;
-        public static double profundidade;
+        private double altura;
+        private double base1;
+        private double profundidade;
+
+        private double area;
+        private double volume;
+        private double perimetro;
+
+        public TrianguloRetangulo(double h, double base2, double p){
+            altura = h;
+            base1 = base2;
+            profundidade = p;
+
+            area = 0;
+            volume = 0;
+            perimetro = 0;
+        }
         
-        public static double CalculaArea(double h, double base2){
-            return (h * base2 / 2);
+        public void CalculaArea(){
+            area = (altura * base1 / 2);
         }
 
-        public static double CalculaVolume(double h, double base2, double profundidade){
-            return (h * base2 / 2) * profundidade;
+        public void CalculaVolume(){
+            volume = (altura * base1 / 2) * profundidade;
         }
 
-        public static double CalculaPerimetro(double h, double base2){
-            return 2 * Math.Sqrt((h*h)+(base2*base2)+h+base2);
+        public void CalculaPerimetro(){
+            perimetro = 2 * Math.Sqrt((altura*altura)+(base1*base1)+altura+base1);
+        }
+
+        public double get_area()
+        {
+            return area;
+        }
+        public double get_volume()
+        {
+            return volume;
+        }
+        public double get_perimetro()
+        {
+            return perimetro;
         }
     }
 }

@@ -13,8 +13,8 @@ namespace DesafioM3
 
             raio = r;
 
-            area = null;
-            volume = null;
+            area = 0;
+            volume = 0;
 
         }
 

@@ -6,7 +6,7 @@ namespace DesafioM3
     {
         static void Main(string[] args)
         {
-            ExecutarElipse();
+            ExecutarLosango();
         }
         /*
         static void RepetirPrograma(){
@@ -30,11 +30,11 @@ namespace DesafioM3
                     return;
 
                 case 3:
-                    "---";
+                    ExecutarElipse();
                     return;
 
                 case 4:
-                    "---";
+                    ExecutarEsfera();
                     return;
 
                 case 5:
@@ -233,5 +233,70 @@ namespace DesafioM3
             //FuncaoParaContinuar();
         }
 
+        static void ExecutarEsfera(){
+
+            Console.Clear();
+
+            double area;
+            double volume;
+
+            double raio;
+
+            Console.Write("Digite o raio: ");
+            raio = double.Parse(Console.ReadLine());
+
+            Esfera esfera = new Esfera(raio);
+
+            esfera.CalculaArea();
+            esfera.CalculaVolume();
+
+            area = esfera.get_area();
+            volume = esfera.get_volume();
+
+            Console.WriteLine("\nResultados");
+            Console.WriteLine($"Area da Base: {Math.Round(area,4)} m²");
+            Console.WriteLine($"Volume: {Math.Round(volume,4)} m³");
+
+            //FuncaoParaContinuar();
+        }
+
+        static void ExecutarLosango(){
+
+            Console.Clear();
+
+            double area;
+            double volume;
+            double perimetroDaBase;
+
+            double diagonalMenor;
+            double diagonalMaior;
+            double profundidade;
+
+            Console.Write("Digite a diagonal Maior: ");
+            diagonalMaior = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a diagonal Menor: ");
+            diagonalMenor = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a profundidade: ");
+            profundidade = double.Parse(Console.ReadLine());
+
+            Losango losango = new Losango(diagonalMenor, diagonalMaior, profundidade);
+
+            losango.CalculaArea();
+            losango.CalculaVolume();
+            losango.CalculaPerimetroDaBase();
+
+            area = losango.get_area();
+            volume = losango.get_volume();
+            perimetroDaBase = losango.get_perimetroDaBase();
+
+            Console.WriteLine("\nResultados");
+            Console.WriteLine($"Area: {Math.Round(area,4)} m²");
+            Console.WriteLine($"Volume: {Math.Round(volume,4)} m³");
+            Console.WriteLine($"Perimetro da Base: {Math.Round(perimetroDaBase,4)} m³");
+
+            //FuncaoParaContinuar();
+        }
     }
 }

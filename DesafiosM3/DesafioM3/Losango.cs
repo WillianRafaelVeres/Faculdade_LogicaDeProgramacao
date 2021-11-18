@@ -37,7 +37,9 @@ namespace DesafioM3
             double x;
             double x1;
 
-            x = ((diagonalMenor*diagonalMenor)+(diagonalMaior*diagonalMaior));
+            x = (Math.Pow((diagonalMenor/2),2)) + (Math.Pow((diagonalMaior/2),2));
+
+            //x = ((diagonalMenor*diagonalMenor)+(diagonalMaior*diagonalMaior));
             x1 = Math.Sqrt(x);
 
             perimetroDaBase = 4 * x1;

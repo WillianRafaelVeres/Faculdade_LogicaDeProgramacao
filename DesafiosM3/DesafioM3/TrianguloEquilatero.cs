@@ -26,7 +26,7 @@ namespace DesafioM3
         }
 
         public void CalculaVolume(){
-            volume = (((altura * altura)/3) * profundidade);
+            volume = ((Math.Pow(altura,2)/3) * profundidade);
         }
 
         public void CalculaPerimetro(){ 

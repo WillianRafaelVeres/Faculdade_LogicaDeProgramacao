@@ -27,7 +27,7 @@ namespace DesafioM3
         }
 
         public void CalculaVolume(){
-            volume = (((baseMenor + baseMaior)* altura) * profundidade * (baseMenor + baseMaior) / 2);
+            volume = ((((baseMenor + baseMaior)* altura)/2) * profundidade * (baseMenor + baseMaior) / 2);
         }
 
         public double get_area()

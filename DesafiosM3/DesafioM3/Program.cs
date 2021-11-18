@@ -6,9 +6,8 @@ namespace DesafioM3
     {
         static void Main(string[] args)
         {
-            ExecutarLosango();
+            RepetirPrograma();
         }
-        /*
         static void RepetirPrograma(){
             
             int opcaoDeOperacao;
@@ -38,35 +37,35 @@ namespace DesafioM3
                     return;
 
                 case 5:
-                    "---";
+                    ExecutarLosango();
                     return;
 
                 case 6:
-                    "---";
+                    ExecutarParalelogramo();
                     return;
 
                 case 7:
-                    "---";
+                    ExecutarQuadrado();
                     return;
 
                 case 8:
-                    "---";
+                    ExecutarRetangulo();
                     return;
 
                 case 9:
-                    "---";
+                    ExecutarTrapezio();
                     return;
 
                 case 10:
-                    "---";
+                    ExecutarTrianguloEquilatero();
                     return;
 
                 case 11:
-                    "---";
+                    ExecutarTrianguloIsosceles();
                     return;
 
                 case 12:
-                    "---";
+                    ExecutarTrianguloRetangulo();
                     return;
                 
                 default:
@@ -75,7 +74,7 @@ namespace DesafioM3
                     RepetirPrograma();
                     return;
             }
-        }*/
+        }
 
 
         static void FuncaoParaContinuar(){
@@ -90,7 +89,7 @@ namespace DesafioM3
                 opcaoParaContinuar = int.Parse(Console.ReadLine());
                 
                 if(opcaoParaContinuar == 1){
-                    //RepetirPrograma();
+                    RepetirPrograma();
                 }
 
                 else if( opcaoParaContinuar == 2){
@@ -141,14 +140,14 @@ namespace DesafioM3
             perimetro = cilindro.get_perimetro();
             volume = cilindro.get_volume();
 
-            Console.WriteLine("\nResultados");
+            Console.WriteLine("\nResultados Cilindro");
             Console.WriteLine($"Volume: {Math.Round(volume,4)} m³");
             Console.WriteLine($"Area da Base: {Math.Round(areaDaBase,4)} m²");
             Console.WriteLine($"Area Lateral: {Math.Round(areaLateral,4)} m²");
             Console.WriteLine($"Area Total: {Math.Round(areaTotal,4)} m²");
             Console.WriteLine($"Perímetro: {Math.Round(perimetro,4)} m");
 
-            //FuncaoParaContinuar();
+            FuncaoParaContinuar();
         }
 
         static void ExecutarCirculo(){
@@ -171,11 +170,11 @@ namespace DesafioM3
             area = circulo.get_area();
             perimetro = circulo.get_perimetro();
 
-            Console.WriteLine("\nResultados");
+            Console.WriteLine("\nResultados Circulo");
             Console.WriteLine($"Area da Base: {Math.Round(area,4)} m²");
             Console.WriteLine($"Perímetro: {Math.Round(perimetro,4)} m");
 
-            //FuncaoParaContinuar();
+            FuncaoParaContinuar();
         }
     
         static void ExecutarElipse(){
@@ -217,7 +216,7 @@ namespace DesafioM3
             areaProlato = elipse.get_AreaProlato();
             areaOblato = elipse.get_AreaOblato();
 
-            Console.WriteLine("\nResultados");
+            Console.WriteLine("\nResultados Elipse");
             Console.WriteLine($"Área: {Math.Round(area,4)} m2");
             if(raioMaior>raioMenor){
                 Console.WriteLine($"Perimetro aproximado: {Math.Round(perimetroAproximadoA,4)} m");
@@ -230,10 +229,10 @@ namespace DesafioM3
                 Console.WriteLine($"Area Prolato: {Math.Round(areaProlato,4)} m²");
             }
 
-            //FuncaoParaContinuar();
+            FuncaoParaContinuar();
         }
 
-        static void ExecutarEsfera(){
+        static void ExecutarEsfera(){ 
 
             Console.Clear();
 
@@ -253,11 +252,11 @@ namespace DesafioM3
             area = esfera.get_area();
             volume = esfera.get_volume();
 
-            Console.WriteLine("\nResultados");
+            Console.WriteLine("\nResultados Esfera");
             Console.WriteLine($"Area da Base: {Math.Round(area,4)} m²");
             Console.WriteLine($"Volume: {Math.Round(volume,4)} m³");
 
-            //FuncaoParaContinuar();
+            FuncaoParaContinuar();
         }
 
         static void ExecutarLosango(){
@@ -291,12 +290,285 @@ namespace DesafioM3
             volume = losango.get_volume();
             perimetroDaBase = losango.get_perimetroDaBase();
 
-            Console.WriteLine("\nResultados");
+            Console.WriteLine("\nResultados Losango");
             Console.WriteLine($"Area: {Math.Round(area,4)} m²");
             Console.WriteLine($"Volume: {Math.Round(volume,4)} m³");
-            Console.WriteLine($"Perimetro da Base: {Math.Round(perimetroDaBase,4)} m³");
+            Console.WriteLine($"Perimetro da Base: {Math.Round(perimetroDaBase,4)} m");
 
-            //FuncaoParaContinuar();
+            FuncaoParaContinuar();
+        }
+
+        static void ExecutarParalelogramo(){
+
+            Console.Clear();
+
+            double area;
+            double volume;
+            double perimetro;
+
+            double altura;
+            double base1;
+            double profundidade;
+
+            Console.Write("Digite a altura: ");
+            altura = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a base: ");
+            base1 = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a profundidade: ");
+            profundidade = double.Parse(Console.ReadLine());
+
+            Paralelogramo paralelogramo = new Paralelogramo(altura, base1, profundidade);
+
+            paralelogramo.CalculaArea();
+            paralelogramo.CalculaVolume();
+            paralelogramo.CalculaPerimetro();
+
+            area = paralelogramo.get_area();
+            volume = paralelogramo.get_volume();
+            perimetro = paralelogramo.get_perimetro();
+
+            Console.WriteLine("\nResultados Paralelogramo");
+            Console.WriteLine($"Area: {Math.Round(area,4)} m²");
+            Console.WriteLine($"Volume: {Math.Round(volume,4)} m³");
+            Console.WriteLine($"Perimetro: {Math.Round(perimetro,4)} m");
+
+            FuncaoParaContinuar();
+        }
+
+        static void ExecutarQuadrado(){
+
+            Console.Clear();
+
+            double area;
+            double volume;
+            double perimetro;
+
+            double altura;
+            double base1;
+            double profundidade;
+
+            Console.Write("Digite a altura: ");
+            altura = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a base: ");
+            base1 = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a profundidade: ");
+            profundidade = double.Parse(Console.ReadLine());
+
+            Quadrado quadrado = new Quadrado(altura, base1, profundidade);
+
+            quadrado.CalculaArea();
+            quadrado.CalculaVolume();
+            quadrado.CalculaPerimetro();
+
+            area = quadrado.get_area();
+            volume = quadrado.get_volume();
+            perimetro = quadrado.get_perimetro();
+
+            Console.WriteLine("\nResultados quadrado");
+            Console.WriteLine($"Area: {Math.Round(area,4)} m²");
+            Console.WriteLine($"Volume: {Math.Round(volume,4)} m³");
+            Console.WriteLine($"Perimetro: {Math.Round(perimetro,4)} m");
+
+            FuncaoParaContinuar();
+        }
+
+        static void ExecutarRetangulo(){
+
+            Console.Clear();
+
+            double area;
+            double volume;
+            double perimetro;
+
+            double altura;
+            double base1;
+            double profundidade;
+
+            Console.Write("Digite a altura: ");
+            altura = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a base: ");
+            base1 = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a profundidade: ");
+            profundidade = double.Parse(Console.ReadLine());
+
+            Retangulo retangulo = new Retangulo(altura, base1, profundidade);
+
+            retangulo.CalculaArea();
+            retangulo.CalculaVolume();
+            retangulo.CalculaPerimetro();
+
+            area = retangulo.get_area();
+            volume = retangulo.get_volume();
+            perimetro = retangulo.get_perimetro();
+
+            Console.WriteLine("\nResultados retângulo");
+            Console.WriteLine($"Area: {Math.Round(area,4)} m²");
+            Console.WriteLine($"Volume: {Math.Round(volume,4)} m³");
+            Console.WriteLine($"Perimetro: {Math.Round(perimetro,4)} m");
+
+            FuncaoParaContinuar();
+        }
+
+        static void ExecutarTrapezio(){
+
+            Console.Clear();
+
+            double area;
+            double volume;
+
+            double altura;
+            double baseMaior;
+            double baseMenor;
+            double profundidade;
+
+            Console.Write("Digite a altura: ");
+            altura = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a base Maior: ");
+            baseMaior = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a base Menor: ");
+            baseMenor = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a profundidade: ");
+            profundidade = double.Parse(Console.ReadLine());
+
+            Trapezio trapezio = new Trapezio(altura, baseMaior, baseMenor, profundidade);
+
+            trapezio.CalculaArea();
+            trapezio.CalculaVolume();
+
+
+            area = trapezio.get_area();
+            volume = trapezio.get_volume();
+
+            Console.WriteLine("\nResultados trapézio");
+            Console.WriteLine($"Area: {Math.Round(area,4)} m²");
+            Console.WriteLine($"Volume: {Math.Round(volume,4)} m³");
+
+            FuncaoParaContinuar();
+        }
+
+        static void ExecutarTrianguloEquilatero(){
+
+            Console.Clear();
+
+            double area;
+            double volume;
+            double perimetro;
+
+            double altura;
+            double profundidade;
+
+            Console.Write("Digite a altura: ");
+            altura = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a profundidade: ");
+            profundidade = double.Parse(Console.ReadLine());
+
+            TrianguloEquilatero trianguloEquilatero = new TrianguloEquilatero(altura, profundidade);
+
+            trianguloEquilatero.CalculaArea();
+            trianguloEquilatero.CalculaVolume();
+            trianguloEquilatero.CalculaPerimetro();
+
+
+            area = trianguloEquilatero.get_area();
+            volume = trianguloEquilatero.get_volume();
+            perimetro = trianguloEquilatero.get_perimetro();
+
+            Console.WriteLine("\nResultados Triângulo Equilátero");
+            Console.WriteLine($"Area: {Math.Round(area,4)} m²");
+            Console.WriteLine($"Volume: {Math.Round(volume,4)} m³");
+            Console.WriteLine($"Volume: {Math.Round(perimetro,4)} m³");
+
+            FuncaoParaContinuar();
+        }
+
+        static void ExecutarTrianguloIsosceles(){
+
+            Console.Clear();
+
+            double area;
+            double volume;
+            double perimetro;
+
+            double altura;
+            double profundidade;
+            double base1;
+
+            Console.Write("Digite a altura: ");
+            altura = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a profundidade: ");
+            profundidade = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a base: ");
+            base1 = double.Parse(Console.ReadLine());
+
+            TrianguloIsosceles trianguloIsosceles = new TrianguloIsosceles(altura, base1, profundidade);
+
+            trianguloIsosceles.CalculaArea();
+            trianguloIsosceles.CalculaVolume();
+            trianguloIsosceles.CalculaPerimetro();
+
+
+            area = trianguloIsosceles.get_area();
+            volume = trianguloIsosceles.get_volume();
+            perimetro = trianguloIsosceles.get_perimetro();
+
+            Console.WriteLine("\nResultados Triângulo Isósceles");
+            Console.WriteLine($"Area: {Math.Round(area,4)} m²");
+            Console.WriteLine($"Volume: {Math.Round(volume,4)} m³");
+            Console.WriteLine($"Perímetro: {Math.Round(perimetro,4)} m³");
+
+            FuncaoParaContinuar();
+        }
+
+        static void ExecutarTrianguloRetangulo(){
+
+            Console.Clear();
+
+            double area;
+            double volume;
+            double perimetro;
+
+            double altura;
+            double profundidade;
+            double base1;
+
+            Console.Write("Digite a altura: ");
+            altura = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a profundidade: ");
+            profundidade = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a base: ");
+            base1 = double.Parse(Console.ReadLine());
+
+            TrianguloRetangulo trianguloRetangulo = new TrianguloRetangulo(altura, base1, profundidade);
+
+            trianguloRetangulo.CalculaArea();
+            trianguloRetangulo.CalculaVolume();
+            trianguloRetangulo.CalculaPerimetro();
+
+
+            area = trianguloRetangulo.get_area();
+            volume = trianguloRetangulo.get_volume();
+            perimetro = trianguloRetangulo.get_perimetro();
+
+            Console.WriteLine("\nResultados Triângulo Retângulo");
+            Console.WriteLine($"Area: {Math.Round(area,4)} m²");
+            Console.WriteLine($"Volume: {Math.Round(volume,4)} m³");
+            Console.WriteLine($"Perímetro: {Math.Round(perimetro,4)} m³");
+
+            FuncaoParaContinuar();
         }
     }
 }

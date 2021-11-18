@@ -50,5 +50,33 @@ namespace DesafioM3
         public void CalculaAreaOblato(){
             areaOblato = Math.PI * (2*Math.Pow(raioMaior,2) + (Math.Pow(raioMenor,2)/Math.E)* Math.Log((1+Math.E)/(1-Math.E)));
         }
+
+        public double get_area(){
+            return area;
+        }
+
+        public double get_PerimetroAproximadoA(){
+            return perimetroAproximadoA;
+        }
+
+        public double get_PerimetroAproximadoB(){
+            return perimetroAproximadoB;
+        }
+
+        public double get_VolumeProlato(){
+            return volumeProlato;
+        }
+
+        public double get_VolumeOblato(){
+            return volumeOblato;
+        }
+
+        public double get_AreaProlato(){
+            return areaProlato;
+        }
+
+        public double get_AreaOblato(){
+            return areaOblato;
+        }
     }
 }

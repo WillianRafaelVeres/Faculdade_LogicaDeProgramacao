@@ -6,7 +6,7 @@ namespace DesafioM3
     {
         static void Main(string[] args)
         {
-            ExecutarCilindro();
+            ExecutarElipse();
         }
         /*
         static void RepetirPrograma(){
@@ -118,7 +118,6 @@ namespace DesafioM3
             double perimetro;
             double volume;
 
-
             double raio;
             double altura;
 
@@ -151,6 +150,88 @@ namespace DesafioM3
 
             //FuncaoParaContinuar();
         }
+
+        static void ExecutarCirculo(){
+
+            Console.Clear();
+
+            double area;
+            double perimetro;
+
+            double raio;
+
+            Console.Write("Digite o raio: ");
+            raio = double.Parse(Console.ReadLine());
+
+            Circulo circulo = new Circulo(raio);
+
+            circulo.CalculaArea();
+            circulo.CalculaPerimetro();
+
+            area = circulo.get_area();
+            perimetro = circulo.get_perimetro();
+
+            Console.WriteLine("\nResultados");
+            Console.WriteLine($"Area da Base: {Math.Round(area,4)} m²");
+            Console.WriteLine($"Perímetro: {Math.Round(perimetro,4)} m");
+
+            //FuncaoParaContinuar();
+        }
     
+        static void ExecutarElipse(){
+
+            Console.Clear();
+
+            double area;
+            double perimetroAproximadoA;
+            double perimetroAproximadoB;
+            double volumeProlato;
+            double volumeOblato;
+            double areaProlato;
+            double areaOblato;
+
+            double raioMaior;
+            double raioMenor;
+
+            Console.Write("Digite o raio horizontal: ");
+            raioMaior = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite o raio vertical: ");
+            raioMenor = double.Parse(Console.ReadLine());
+
+            Elipse elipse = new Elipse(raioMaior, raioMenor);
+
+            elipse.CalculaArea();
+            elipse.CalculaPerimetroAproximadoA();
+            elipse.CalculaPerimetroAproximadoB();
+            elipse.CalculaProlato();
+            elipse.CalculaOblato();
+            elipse.CalculaAreaProlato();
+            elipse.CalculaAreaOblato();
+
+            area = elipse.get_area();
+            perimetroAproximadoA = elipse.get_PerimetroAproximadoA();
+            perimetroAproximadoB = elipse.get_PerimetroAproximadoB();
+            volumeOblato = elipse.get_VolumeOblato();
+            volumeProlato = elipse.get_VolumeProlato();
+            areaProlato = elipse.get_AreaProlato();
+            areaOblato = elipse.get_AreaOblato();
+
+            Console.WriteLine("\nResultados");
+            Console.WriteLine($"Área: {Math.Round(area,4)} m2");
+            if(raioMaior>raioMenor){
+                Console.WriteLine($"Perimetro aproximado: {Math.Round(perimetroAproximadoA,4)} m");
+                Console.WriteLine($"Volume Oblato: {Math.Round(volumeOblato,4)} m3");
+                Console.WriteLine($"Area Oblato: {Math.Round(areaOblato,4)} m²");
+            }
+            else{
+                Console.WriteLine($"Perimetro aproximado: {Math.Round(perimetroAproximadoB,4)} m");
+                Console.WriteLine($"Volume Prolato: {Math.Round(volumeProlato,4)} m3");
+                Console.WriteLine($"Area Prolato: {Math.Round(areaProlato,4)} m²");
+            }
+
+            //FuncaoParaContinuar();
+        }
+
     }
 }

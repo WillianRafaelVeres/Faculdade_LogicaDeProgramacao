@@ -66,7 +66,7 @@ namespace DesafioM3
         }
         // Procedimento que calcula a área do oblato da elipse e armazena na variável de instância
         public void CalculaAreaOblato(){
-            areaOblato = Math.PI * (2*Math.Pow(raioMaior,2) + (Math.Pow(raioMenor,2)/Math.E)* Math.Log((1+Math.E)/(1-Math.E)));
+            areaOblato = Math.PI * (2*Math.Pow(raioMaior,2) + (Math.Pow(raioMenor,2)/Math.E)* Math.Log((1+ Math.E)/(1-Math.E)));
         }
 
         // funções para acessar o valor das variáveis de instância
